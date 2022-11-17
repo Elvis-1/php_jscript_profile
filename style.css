@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #F2F2F2;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.7;
+    font-size: 13px;
+    background-image:url() ;
+  }
+
+  .container{
+   height: 100vh;
+    /* margin: 100px auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card{
+    /* height: 500px; */
+    padding: 10px;
+    width: 300px;
+    border:2px solid white;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0.5, 0.5, 0.5, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img{
+    max-width: 100%;
+  }
+
+  input{
+    border: none;
+    background: #F2F2F2
+    ;
+    padding: 15px;
+    margin: 10px 0;
+    outline: none;
+    width: 260px;
+    /* font-size: 14px */
+    max-width: 100%;
+
+  }
+  .submit{
+    color: #fff;
+    background-color: #F2A74B;
+  }
+ .profile-image{
+margin-bottom: 20px; 
+font-weight: bold; 
+  }
+  h1{
+    margin-bottom: 50px; 
+    text-align: center;
+  }
+  .profile-card{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 20px;
+    border: none;
+    background-image: url('/images/card.jpg');
+  }
+
+  /* .circle-image{
+   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+  } */
+  .profile-image{
+  
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    
+  }
+  p{
+    font-style: oblique;
+  }
+  #upload-text{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 10px;
+    
+  }
+
+  #error{
+   color: red;
+   background-color: lightgrey;
+   font-style: oblique;
+   margin: 5px;
+   padding: 0 5px;
+   
+  }
+
+
+
