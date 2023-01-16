@@ -99,7 +99,7 @@ Swal.fire({
                 <input type="file" placeholder="image" name="image" id="image">
                  </div>
                  <!-- <button>Upload</button> -->
-                 <input id="input" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="submit" type="submit" onclick="" value="Upload">
+                 <input id="input" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="submit" type="submit" onclick="return validate();" value="Upload">
 
         </div>
         </form>
